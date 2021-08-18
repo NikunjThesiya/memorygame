@@ -1,0 +1,61 @@
+.bg-light {
+	/* background: #1db0ff !important; */
+	color: white;
+}
+
+.headerItems {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+
+.winLossBoard {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.scoreBoard {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.scoreBoard > .score,
+.scoreBoard > .wrongGuesses {
+	padding: 6px;
+}
+
+.nav-item {
+	margin-right: 5px;
+	font-size: 20px;
+	float: right;
+	list-style-type: none;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.btn {
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: gray;
+	place-self: center;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+}
+
+.btn:hover {
+	background-color: white;
+	color: gray;
+	cursor: pointer;
+}
